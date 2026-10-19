@@ -18,7 +18,7 @@ Something is needed before the work can continue, for example missing data, cont
 
 The status a ticket must be put in once it is completed and has no pending work left.
 
-## Allowed status changes
+## Transitions
 
 A status cannot be changed freely. These are the allowed changes:
 

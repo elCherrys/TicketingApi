@@ -2,6 +2,7 @@
 
 Tickets are the main structure of the project.
 
+
 ## Fields
 
 A ticket has:
@@ -12,7 +13,7 @@ A ticket has:
 | Title        | The name the ticket shows up with on the list of tickets, meant to be brief yet descriptive | Text                | Text up to 100 characters                                                                                          | Creator                                                   |
 | Description  | Detailed information on the ticket                                                          | Text                | Text with no limit                                                                                                 | Creator                                                   |
 | Status       | The current step of the ticket in the process of being solved                               | One from fixed list | [Open](Status.md#open), [Assigned](Status.md#assigned), [Awaiting](Status.md#awaiting), [Closed](Status.md#closed) | System, modified by the assignee                          |
-| Priority     | How important the ticket is, depending on the impact of the issue being addressed           | One from fixed list | Low, Medium, High                                                                                                  | Creator                                                   |
+| Priority     | How important the ticket is, depending on the impact of the issue being addressed           | One from fixed list | Low, Medium, High                                                                                                  | Creator, editable afterwards                              |
 | Created date | The date and time the ticket was submitted                                                  | Date and time       | Set automatically                                                                                                  | System                                                    |
 | Assignee     | The person in charge of the ticket                                                          | Text                | Text                                                                                                               | Self-assignment (admins are planned for a future release) |
 

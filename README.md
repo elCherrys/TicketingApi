@@ -18,7 +18,7 @@ I'm building it as a portfolio project, starting from my experience handling cus
 ## Tech stack (planned)
 
 - **Backend:** C# with ASP.NET Core Web API (.NET 10)
-- **Database:** SQLite
+- **Database:** ~~SQLite~~ SQL Server
 - **Frontend:** plain HTML, CSS and JavaScript with Bootstrap
 - **Hosting:** Oracle Cloud Always Free tier
 
@@ -35,9 +35,9 @@ The design lives in the [`docs`](docs/) folder:
 
 - [x] Project setup
 - [x] Design documentation (tickets, statuses, comments)
-- [ ] Endpoint definitions
+- [x] Endpoint definitions
 - [ ] Interface sketches
-- [ ] Ticket model
+- [x] Ticket model
 - [ ] Create, list and view tickets
 - [ ] Edit tickets and add comments
 - [ ] Filters and search

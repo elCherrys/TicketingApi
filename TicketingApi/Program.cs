@@ -1,6 +1,12 @@
+using TicketingApi.Models;
+using Microsoft.EntityFrameworkCore;
+using TicketingApi.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<TicketingDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("TicketingDb")));
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi

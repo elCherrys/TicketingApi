@@ -6,14 +6,14 @@ Comments give updates on a [ticket](Tickets.md): new findings, additional data, 
 
 A comment has:
 
-|Field|What it is|Type|Set by|
-|---|---|---|---|
-|ID|Unique identifier of the comment|Integer|System|
-|Ticket ID|The ticket it belongs to|Integer|System|
-|Text|The comment itself|Text|Author|
-|Author|Who wrote it|Text|Author|
-|Created date|When it was posted|Date and time|System|
-|Deleted|Whether the comment is deleted or not|Boolean|System|
+| Field        | What it is                            | Type          | Set by |     |
+| ------------ | ------------------------------------- | ------------- | ------ | --- |
+| ID           | Unique identifier of the comment      | Integer       | System |     |
+| Ticket ID    | The ticket it belongs to              | Integer       | System |     |
+| Text         | The comment itself                    | Text          | Author |     |
+| Author       | Who wrote it                          | Text          | Author |     |
+| Created date | When it was posted                    | Date and time | System |     |
+| IsDeleted    | Whether the comment is deleted or not | Boolean       | System |     |
 
 ## Rules
 
